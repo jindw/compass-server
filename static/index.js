@@ -54,7 +54,7 @@ wx.ready(function(){
     wx.checkJsApi({
       jsApiList: jsApiList,
       success: function (res) {
-        alert('api supports:\n',JSON.stringify(res));
+        alert('api supports:\n'+JSON.stringify(res));
       }
     });
   };
